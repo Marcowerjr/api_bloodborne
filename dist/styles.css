@@ -3,8 +3,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
-  color: #3c484e;
+  color: black;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -38,7 +37,7 @@ body {
 }
 
 .Characters {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 1.5rem;
   grid-row-gap: 1.5em;
   display: grid;
@@ -48,12 +47,12 @@ body {
   grid-template-columns: 1fr 2fr;
   grid-gap: 1.5rem;
   grid-row-gap: 1.5em;
-  display: grid;
+  display: grid;  
 }
 
 .Characters-card {
   text-decoration: none;
-  box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
+  box-shadow: 8px 14px 38px rgba(39,44,49,.06), 10px 10px 8px rgba(39,44,49,.03);
   border-radius: 5px;
   margin: 0 0 20px 0;
   display: block;
@@ -82,12 +81,13 @@ body {
 
 .Characters-item {
   text-decoration: none;
-  box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
+  box-shadow: 8px 14px 38px rgba(39,44,49,.06), 10px 10px 8px rgba(39,44,49,.03);
   border-radius: 5px;
   margin: 0 0 20px 0;
   display: block;
   animation-duration: 2s;
   animation-name: fade;
+  
 }
 
 .Characters-item img {
