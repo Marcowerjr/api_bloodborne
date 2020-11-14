@@ -6,7 +6,7 @@ const Footer = () => {
         <div class="Footer-main">
             <div class="Footer-logo">
                 <h1>Integrantes: </h1>
-                <h1>Marcos Caballero Fernandez</h1>
+                <h1>Marcos Caballero Fernández</h1>
                 <h1>Jaziel Giovani Alvarado Encino</h1>
             </div>
             <div class="Footer-nav">
