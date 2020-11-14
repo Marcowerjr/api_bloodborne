@@ -2,11 +2,11 @@ const Header = () => {
     const view = `
         <div class="Header-main">
             <div class="Header-logo">
-                <h1> <a href='/'> API Bloodborne </a>  </h1>
+                <h1> <a href='/api_bloodborne/'> API Bloodborne </a>  </h1>
             </div>
             <div class="Header-nav">
-                <a href="#/about"/>
-                    About
+                <a href="/api_bloodborne/"/>
+                    Home
                 </a>
             </div>
         </div>

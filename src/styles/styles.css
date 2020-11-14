@@ -5,6 +5,18 @@ body {
   padding: 0;
   color: black;
   font-family: 'Open Sans', sans-serif;
+  background-color: gray;
+}
+
+img{
+  width: 476px;
+  height: 268px;
+}
+
+article{
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
 }
 
 .Header-main {
@@ -53,6 +65,7 @@ body {
 .Characters-card {
   text-decoration: none;
   box-shadow: 8px 14px 38px rgba(39,44,49,.06), 10px 10px 8px rgba(39,44,49,.03);
+  background-color: white;
   border-radius: 5px;
   margin: 0 0 20px 0;
   display: block;
